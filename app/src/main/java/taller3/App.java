@@ -33,8 +33,8 @@ public static String Escribir_asc(int nro_1, int nro_2, int nro_3){
           return orden;
        }
        else if(nro_1 > nro_3 && nro_3 > nro_2){
-          mensaje = nro_1 + " - " + nro_3 + " - " + nro_2;
-          return mensaje;
+          orden = nro_1 + " - " + nro_3 + " - " + nro_2;
+          return orden;
        }
        else if(nro_2 > nro_1 && nro_1 > nro_3){
           orden = nro_2 + " - " + nro_1 + " - " + nro_3;
